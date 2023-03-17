@@ -1,5 +1,5 @@
 ### "Рассылка email"
-# Проект: Верстка письма для художника
+# Проект: Верстка email художника
 
 **GitHub:**
 * [Ссылка на макет в GitHub](https://talidoom.github.io/email-artist/index.html)
