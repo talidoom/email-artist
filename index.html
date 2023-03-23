@@ -7,6 +7,8 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="supported-color-schemes" content="light dark" />
   <title>Title</title>
   <style type="text/css">
     @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
@@ -34,7 +36,7 @@
     @media screen and (max-width: 399.98px) {
       .mobile-padding {
         padding-right: 10px !important;
-        padding-left: 10px !important;
+        padding-left: 20px !important;
       }
 
       .mobile-col-padding {
@@ -60,6 +62,26 @@
       .three-columns .column img {
         width: 100% !important;
         max-width: 100% !important;
+      }
+    }
+
+    /* Custom Dark Mode Colors */
+    :root {
+      color-scheme: light dark;
+      supported-color-schemes: light dark;
+    }
+    @media (prefers-color-scheme: dark) {
+      table,
+      td {
+        background-color: #06080B !important;
+      }
+      h1,
+      h2,
+      p {
+        color: #ffffff !important;
+      }
+      h3 {
+        color: #4682B4 !important;
       }
     }
   </style>
@@ -100,7 +122,7 @@
       <!-- End Preheader (remove comment) -->
 
       <!--[if (gte mso 9)|(IE)]>
-        <table width="600" align="center" border="0" cellspacing="0" cellpadding="0" role="presentation"
+        <table max-width="600" align="center" border="0" cellspacing="0" cellpadding="0" role="presentation"
           style="color:#1C1E23;">
         <tr>
         <td>
@@ -155,7 +177,7 @@
                 </tr>
                 <tr>
                   <td align="center">
-                    <img src="./img/header_img.jpg" alt="header art" border="0" width="552">
+                    <img src="https://i.ibb.co/R3C5s6N/header-img.jpg" alt="header art" border="0" style="width: 100%; max-width: 600px;">
                   </td>
                 </tr>
                 <tr>
@@ -198,11 +220,9 @@
               <table align="left" border="0" cellspacing="0" cellpadding="0" role="presentation">
                 <tr>
                   <td style="text-align: center;">
-                    <a href="https://www.artstation.com/talidoom" target="_blank">
                       <h2 style="margin: 0; font-weight: 400; font-size: 30px; line-height: 36px; color: #1C1E23;">
                         Популярные работы
                       </h2>
-                    </a>
                   </td>
                 </tr>
               </table>
@@ -220,8 +240,8 @@
                   <td style="padding: 32px 8px 16px 8px;" class="mobile-col-padding">
                     <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="text-align: left;">
                       <tr>
-                        <td style="padding: 0 0 px 0;">
-                          <img src="./img/cards.jpg" alt="playing card" border="0" width="260" style="max-width: 260px;">
+                        <td  style="padding: 0 0 px 0;">
+                          <img src="https://i.ibb.co/N18nww3/cards.jpg" alt="playing card" border="0" width="100%" style="max-width: 260px;">
                         </td>
                       </tr>
                       <tr>
@@ -264,7 +284,7 @@
                     <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="text-align: left;">
                       <tr>
                         <td style="padding: 0 0 px 0;">
-                          <img src="./img/concept_art.jpg" alt="concept art" border="0" width="260" style="max-width: 260px;">
+                          <img src="https://i.ibb.co/JmRDfnj/concept-art.jpg" alt="concept art" border="0" width="100%" style="max-width: 260px;">
                         </td>
                       </tr>
                       <tr>
@@ -318,7 +338,7 @@
                     <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="text-align: left;">
                       <tr>
                         <td style="padding: 0 0 px 0;">
-                          <img src="./img/illustr_1.jpg" alt="illustration" border="0" width="260" style="max-width: 260px;">
+                          <img src="https://i.ibb.co/82ZXp4s/illustr-1.jpg" alt="illustration" border="0" width="100%" style="max-width: 260px;">
                         </td>
                       </tr>
                       <tr>
@@ -361,7 +381,7 @@
                     <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="text-align: left;">
                       <tr>
                         <td style="padding: 0 0 px 0;">
-                          <img src="./img/sculpt.jpg" alt="figures" border="0" width="260" style="max-width: 260px;">
+                          <img src="https://i.ibb.co/MCVk3n3/sculpt.jpg" alt="figures" border="0" width="100%" style="max-width: 260px;">
                         </td>
                       </tr>
                       <tr>
@@ -414,11 +434,11 @@
 
           <!-- Footer -->
           <tr>
-            <td>
-              <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
+            <td style="padding: 24px 0 15px 0;">
+              <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="width: 100%; max-width: 600px;">
                 <tr>
-                  <td style="padding: 20px 0 10px; text-align: center;">
-                    <p style="margin:0; padding: 24px 0 15px 0; font-weight: 400; font-size: 12px; line-height: 20px; color: #1C1E23;">
+                  <td style="padding: 0 0 10px; text-align: center;">
+                    <p style="margin:0; padding: 0 0 15px 0; font-weight: 400; font-size: 12px; line-height: 20px; color: #1C1E23;">
                       TALIDOOM
                     </p>
                     <p style="margin:0; padding: 0 0 15px 0; font-weight: 400; font-size: 12px; line-height: 20px; color: #1C1E23;">
@@ -426,16 +446,10 @@
                     </p>
                   </td>
                 </tr>
-              </table>
-            </td>
-          </tr>
-          <tr>
-            <td style="padding: 0 0 24px 0;">
-              <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                 <tr>
-                  <td style="padding: 0 0 10px; text-align: center;">
-                    <a href="https://vk.com/arttalidoom"><img src="./img/icon-vk.png" alt="VK" height="18" style="padding: 0 5px 0 0;"></a>
-                    <a href="https://www.artstation.com/talidoom"><img src="./img/icon-artstation.png" alt="Artstation" height="18"></a>
+                  <td style="padding: 0 0 0 0; text-align: center;">
+                    <a href="https://vk.com/arttalidoom"><img src="https://i.ibb.co/pZ9zMKh/icon-vk.png" alt="VK" height="18" style="padding: 0 5px 0 0;"></a>
+                    <a href="https://www.artstation.com/talidoom"><img src="https://i.ibb.co/vmT0V2R/icon-artstation.png" alt="Artstation" height="18"></a>
                   </td>
                 </tr>
               </table>
